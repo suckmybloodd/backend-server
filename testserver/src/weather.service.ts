@@ -35,7 +35,7 @@ export class WeatherService {
         this.getWeatherList();
         setInterval(() => {
             this.getWeatherList();
-        }, 86400000);
+        }, 864000001);
     }
 
     async getWeatherList() {
