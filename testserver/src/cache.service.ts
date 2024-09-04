@@ -19,7 +19,7 @@ export class CacheService {
         this.updateDateAndFetchData();
         setInterval(() => {
             this.updateDateAndFetchData();
-        }, 43200000);
+        }, 43200001);
     }
 
     private updateDateAndFetchData() {
